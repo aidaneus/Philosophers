@@ -23,14 +23,15 @@
    должны выполнить условие - есть спагетти только тогда, когда имеют две вилки в руках. Изначально
    философы сидят в кругу и у каждого справа находится одна вилка. Получается, философ должен взять
    одну вилку справа и одну вилку слева, а остальные должны дождаться, пока вилки освободятся).
-3. Каждое действие треда должно быть выведено на экран в виде сообщения(по заданию - каждое действие философа).
+3. Каждое действие треда должно быть выведено на экран в виде сообщения(по заданию - каждое действие
+   философа).
 4. Время должно считаться в милисекундах - время работы программы.
 ```
 #### Бонусная часть:
 ```
 1. Мьютексы заменяются семафорами.
-2. Каждый тред должен являться процессом(по заданию каждый философ должен быть процессом, не считая основной
-   процесс программы).
+2. Каждый тред должен являться процессом(по заданию каждый философ должен быть процессом, не считая
+   основной процесс программы).
 ```
 #### Кейсы:
 ```
@@ -51,16 +52,16 @@
 ```
 1. The program takes 4 arguments(5-th argument is optional):
    · number of threads(number of philosophers by subject).
-   · the time after which the program will end if the condition is not met(time until philosopher's death
-     if he doesn't eat by subject).
+   · the time after which the program will end if the condition is not met(time until philosopher's
+     death if he doesn't eat by subject).
    · the time during which the condition is met(the time a philosopher spends eating by subject).
    · time the thread is paused(philosopher's sleep time by subject).
-   · number of times the thread must fulfill the condition(number of times a philosopher should eat by subject)
-     |optional condition|.
+   · number of times the thread must fulfill the condition(number of times a philosopher should eat
+     by subject)|optional condition|.
 2. Use mutexes so that threads cannot fulfill a condition at the same time(in subject philosophers
-   should eat spaghetti only when they have two forks in their hands. Ihe Philosophers sit in a circle and 
-   each has one fork on the right. It turns out that the philosopher must take
-   one fork on the right and one fork on the left, and the rest must wait until the forks are free).
+   should eat spaghetti only when they have two forks in their hands. Ihe Philosophers sit in a
+   circle and each has one fork on the right. It turns out that the philosopher must take one fork
+   on the right and one fork on the left, and the rest must wait until the forks are free).
 3. Every action in a thread should be displayed as a message(every action of a philosopher by subject).
 4. The time should be counted in milliseconds - the program's running time.
 ```
