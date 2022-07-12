@@ -6,7 +6,7 @@
 
 #### Задача:
 ```
- Создать треды и научиться пользоваться мьютексами. 
+ Создать треды и использовать мьютексы. 
  Для бонусной части: Вынесение тредов в отдельные процессы и применение семафоров.
 ```
 #### Реализовано:
@@ -48,7 +48,7 @@
 
 #### The Task:
 ```
- Create threads and learn how to use mutexes.
+ Create threads and use mutexes.
  For the bonus part: Moving threads into separate processes and using semaphores.
 ```
 #### Implemented:
